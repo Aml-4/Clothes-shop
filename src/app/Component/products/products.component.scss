@@ -1,0 +1,47 @@
+.card-top {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: .25rem;
+}
+.item img{
+    width: 70px;
+    height: 70px;
+    padding-top: 10px;
+}
+.item{
+    margin: 0 15px;
+    text-align: center;
+}
+.item a:hover{
+    color: rgb(248, 165, 64);
+    cursor: pointer;
+}
+.mybtn{
+    background-color: rgb(165, 164, 164);
+    border: none;
+    color: black;
+}
+.mybtn:hover{
+    background-color: palevioletred;
+    border-radius: 10px;
+}
+.card{
+    padding: 20px;
+    margin: 40px;
+}
+.card img{
+    width:250px;
+    height: 250px;
+    margin-bottom: 15px;
+    transition: 0.5s ease-in-out;
+}
+.card img:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.08);
+}
